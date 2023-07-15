@@ -1,0 +1,12 @@
+{
+  "item.venhance.brimsteel_ingot": "Brimsteel Ingot",
+  "item.venhance.brimsteel_sword": "Brimsteel Sword",
+
+  "block.venhance.brimsteel_block": "Block of Brimsteel",
+
+  "itemgroup.venhance_items": "vEnhance Items",
+  "itemgroup.venhance_blocks": "vEnhance Blocks",
+
+  "tooltip.venhance.brimsteel_sword.shift": "§6+14 Attack Damage§r",
+  "tooltip.venhance.brimsteel_sword": "Press Shift for more information"
+}

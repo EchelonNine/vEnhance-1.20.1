@@ -4,6 +4,9 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import v.enhance.block.ModBlocks;
+import v.enhance.item.ModItemGroups;
+import v.enhance.item.ModItems;
 
 public class VEnhance implements ModInitializer {
 	public static final String MOD_ID = "venhance";
@@ -11,10 +14,10 @@ public class VEnhance implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
+
 	}
 }

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "venhance:brimsteel_ingot"
+    }
+  },
+  "result": {
+    "item": "venhance:brimsteel_block"
+  }
+}
